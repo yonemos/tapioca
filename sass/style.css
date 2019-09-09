@@ -1,0 +1,65 @@
+@charset "UTF-8";
+body {
+  background: #ffedab;
+  padding: 100px 0 0 120px; }
+
+.cup {
+  position: relative;
+  width: 120px;
+  height: 200px;
+  background: #fff; }
+  .cup:before {
+    content: ’ ’;
+    border-right: 20px solid #fff;
+    border-bottom: 200px solid transparent;
+    border-radius: 6px 0 0 0;
+    position: absolute;
+    top: 0;
+    left: -20px; }
+  .cup__top:after,
+  .cup__top {
+    width: 170px;
+    height: 30px;
+    border-radius: 85px/15px;
+    background: #f5f5f5;
+    z-index: 5;
+    position: absolute;
+    top: 5px;
+    left: -24px; }
+    .cup__top:before {
+      content: ' ';
+      width: 170px;
+      height: 13px;
+      background: #f5f5f5;
+      position: absolute; }
+    .cup__top:after,
+    .cup__top:after {
+      content: ' ';
+      background: #fff;
+      top: -15px;
+      left: 0; }
+  .cup__inner {
+    width: 110px;
+    height: 150px;
+    background: #c49a6a;
+    margin-left: 45px;
+    position: relative;
+    z-index: 2; }
+    .cup__inner:before {
+      content: ’’;
+      border-right: 15px solid #c49a6a;
+      border-bottom: 150px solid transparent;
+      border-radius: 3px 0 0 0;
+      position: absolute;
+      top: 0;
+      left: -15px; }
+    .cup__inner:after {
+      content: ’’;
+      border-left: 15px solid #c49a6a;
+      border-bottom: 150px solid transparent;
+      border-radius: 0 3px 0 0;
+      position: absolute;
+      top: 0;
+      right: -15px; }
+
+/*# sourceMappingURL=style.css.map */
