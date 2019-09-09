@@ -34,7 +34,23 @@ body {
     border-bottom: 200px solid transparent;
     border-radius: 6px 0 0 0;
     @include absolute($top: 0, $left:-20px);
-  } //カップのふた
+  } 
+  &:after{
+  content:’’;
+  border-left: 20px solid #fff;
+  border-bottom: 200px solid transparent;
+  border-radius:0 6px 0 0;
+  @include absolute($top:0,$right: -20px);
+  }
+  //カップの底
+  $__bottom{
+  width:120px;
+  height: 40px;
+  border-radius: 60px/20px;
+  background:#fff;
+  @include absolute($bottom:-20px,$left:0);
+  }
+  //カップのふた
   &__top {
     width: 170px;
     height: 30px;
