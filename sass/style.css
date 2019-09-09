@@ -16,6 +16,22 @@ body {
     position: absolute;
     top: 0;
     left: -20px; }
+  .cup:after {
+    content: ’’;
+    border-left: 20px solid #fff;
+    border-bottom: 200px solid transparent;
+    border-radius: 0 6px 0 0;
+    position: absolute;
+    top: 0;
+    right: -20px; }
+  .cup__bottom {
+    width: 120px;
+    height: 40px;
+    border-radius: 60px/20px;
+    background: #fff;
+    position: absolute;
+    bottom: -20px;
+    left: 0; }
   .cup__top:after,
   .cup__top {
     width: 170px;
